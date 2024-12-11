@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema BOPM</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de CSS -->
+    <script src="script.js" defer></script> <!-- Link para o arquivo de JavaScript -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/sistema">Sistema BOPM</a></li>
+                <!-- Adicione outros links conforme necessário -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bopm-info">
+            <h1>Sistema de BOPM</h1>
+            <p>Bem-vindo ao sistema para geração de BOPM (Boletim de Ocorrência de Polícia Militar).</p>
+            <form id="bopm-form">
+                <!-- Formulário para preenchimento de dados -->
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+                <label for="ocorrencia">Ocorrência:</label>
+                <input type="text" id="ocorrencia" name="ocorrencia" required>
+                <button type="submit">Gerar BOPM</button>
+            </form>
+        </section>
+
+        <!-- Outras seções ou informações -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sistema BOPM | Desenvolvido por Aberama Lima</p>
+    </footer>
+</body>
+</html>
